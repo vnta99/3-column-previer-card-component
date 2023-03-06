@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700);
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca:regular);
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 1440px;
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  border-radius: 8px;
+  width: 920px;
+  height: 500px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+.container__component1 {
+  background-color: #E28625;
+  border-radius: 8px 0px 0px 8px;
+  width: 307px;
+}
+.container__component2 {
+  background-color: #006971;
+  border-radius: 8px;
+  width: 307px;
+}
+.container__component3 {
+  background-color: #004140;
+  border-radius: 0px 8px 8px 0px;
+  width: 307px;
+}
+
+.component1__logo {
+  margin-top: 48px;
+  margin-bottom: 35px;
+  margin-left: 48px;
+}
+.component1__title {
+  margin-left: 48px;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.component1__description {
+  margin-left: 48px;
+  margin-bottom: 83px;
+  margin-top: 25px;
+  width: 212px;
+  opacity: 0.75;
+}
+.component1__button {
+  margin-bottom: 48px;
+  margin-left: 48px;
+  height: 48px;
+  width: 146px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  color: #E28625;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component1__button:hover {
+  background-color: #E28625;
+  border: #f2f2f2 2px solid;
+  color: #f2f2f2;
+}
+
+.component2__logo {
+  margin-top: 48px;
+  margin-bottom: 35px;
+  margin-left: 48px;
+}
+.component2__title {
+  margin-left: 48px;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.component2__description {
+  margin-left: 48px;
+  margin-bottom: 83px;
+  margin-top: 25px;
+  width: 212px;
+  opacity: 0.75;
+}
+.component2__button {
+  margin-bottom: 48px;
+  margin-left: 48px;
+  height: 48px;
+  width: 146px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  color: #006971;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component2__button:hover {
+  background-color: #006971;
+  border: #f2f2f2 2px solid;
+  color: #f2f2f2;
+}
+
+.component3__logo {
+  margin-top: 48px;
+  margin-bottom: 35px;
+  margin-left: 48px;
+}
+.component3__title {
+  margin-left: 48px;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.component3__description {
+  margin-left: 48px;
+  margin-bottom: 83px;
+  margin-top: 25px;
+  width: 212px;
+  opacity: 0.75;
+}
+.component3__button {
+  margin-bottom: 48px;
+  margin-left: 48px;
+  height: 48px;
+  width: 146px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  color: #004140;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component3__button:hover {
+  background-color: #004140;
+  border: #f2f2f2 2px solid;
+  color: #f2f2f2;
+}
+
+@media (max-width: 400px) {
+  .box {
+    width: 375px;
+    height: 1600px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    border-radius: 8px;
+    width: 327px;
+    height: 100%;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
